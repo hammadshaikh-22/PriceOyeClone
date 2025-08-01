@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #007aff;
+    justify-content: space-between;
+    height: 60px;
+}
+.button{
+    display: flex;
+
+}
+.search{
+    display: flex;
+    
+}
+.input{
+    width:300px;
+    padding: 10px;
+    height: 15px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo{
+    margin: 15px;
+    width: 130px;
+}
+.login{
+    margin: 10px;
+    width: 80px;
+    background-color: white;
+    color: #007aff;
+    border: 0px;
+    border-radius: 3px;
+}
+.register{
+    margin: 10px;
+    width: 95px;
+    margin-right: 20px;
+    background-color: #007aff;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    
+}
+.sect1{
+    background-color: black;
+    width: 70px;
+    height: 80px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 75px;
+    height: 75px;
+}
+.mainimg{
+    width: 100%;
+    
+    margin-top: 20px;
+}
+.img2{
+    width: 100%;
+}
+.pinkimg{
+    width: 100%;
+    
+    
+
+}
+.products{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background-image: url(images/IMG-20250731-WA0030.jpg) ;
+    /* display: flex; */
+}
+.prod1{
+    /* margin: 30px; */
+    /* border: 2px solid black; */
+    width: 299.08px;
+    height: 238px;
+    background-color: white;
+
+    border-radius: 4px;
+}
+.view{
+    margin: 40px;
+    height: 35px;
+    width: 80px;
+    padding: 5px;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.latest{
+    margin: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.bud1{
+    width: 120px;
+    height: 120px;
+    padding: 10px 40px 0px 40px;
+    margin-left: 50px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+.des1{
+    margin: 10px 20px 20px 20px;
+    
+    
+}
+.price{
+    margin: 35px 0px 10px 25px;
+}
+.buyimg{
+    width: 100%;
+    margin-top: 70px;
+}
+.products2{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background-image: url(images/IMG-20250731-WA0031.jpg) ;
+    /* display: flex; */
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.space{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+.imgtext{
+    font-size: 14px;
+}
+.text{
+    font-size: 12px;
+    color: gray;
+}
+.fpic{
+    margin-left: 17px;
+    width: 80px;
+    height: 65px;
+}
+.product3{
+    background-image: url(images/section-mobiles-bg.png);
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+}
+.shopbyprice{
+    width: 100%;
+    height: 286.59px;
+    background-color: #fce55e;
+    margin: 0px;
+    
+}
+.Shop{
+    margin: 0px 40px 40px 40px;
+    font-size: 20px;
+}
+.shopbutton{
+    width: 270.39px;
+    height: 41.5px;
+    background-color: #f90390;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    transition: white 0.4s ease-in;
+}
+.shopbutton:hover{
+    background-color: white;
+    color: black;
+}
+.shoptext{
+    padding: 12px;
+}
+.firstrow{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.brand1{
+    width: 120px;
+    height: 160px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+.brand2{
+    width: 120px;
+    height: 160px;
+    background-color: #006e2a;
+    border-radius: 5px;
+}
+.brand3{
+    width: 120px;
+    height: 160px;
+    background-color: #64ff01;
+    border-radius: 5px;
+}
+.brand4{
+    width: 120px;
+    height: 160px;
+    background-color: #0072bc;
+    border-radius: 5px;
+}
+.brand5{
+    width: 120px;
+    height: 160px;
+    background-color: #ff6700;
+    border-radius: 5px;
+}
+.brand6{
+    width: 120px;
+    height: 160px;
+    background-color: #ffc915;
+    border-radius: 5px;
+}
+.brand7{
+    width: 120px;
+    height: 160px;
+    background-color: black;
+    border-radius: 5px;
+}
+.brand8{
+    width: 120px;
+    height: 160px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.brand9{
+    width: 120px;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+}
+.samsung{
+    padding: 45px 10px 30px 10px;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    height: 270px;
+    width: 100%;
+    background-color: #007aff;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* margin: 15px; */
+    padding: 15px;
+
+}
+.footh{
+     color: white;
+     margin: 15px;
+}
+.foot1{
+    margin-left: 15px;
+}
+.payment{
+    width: 320px;
+    height: 100px;
+}
+.store{
+    width: 150px;
+    height: 50px;
+}
