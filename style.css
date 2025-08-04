@@ -5,6 +5,9 @@
 body{
     font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 }
+.main{
+    overflow: hidden;
+}
 .header{
     display: flex;
     background-color: #007aff;
@@ -57,6 +60,7 @@ body{
 .section{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .img{
     width: 75px;
@@ -79,8 +83,9 @@ body{
 .products{
     margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: auto;
     background-image: url(images/IMG-20250731-WA0030.jpg) ;
+    padding-bottom: 20px;
     /* display: flex; */
 }
 .prod1{
@@ -89,7 +94,7 @@ body{
     width: 299.08px;
     height: 238px;
     background-color: white;
-
+    margin-top: 10px;
     border-radius: 4px;
 }
 .view{
@@ -114,11 +119,13 @@ body{
     height: 120px;
     padding: 10px 40px 0px 40px;
     margin-left: 50px;
+
 }
 .row1{
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    flex-wrap: wrap;
 
 }
 .des1{
@@ -136,9 +143,10 @@ body{
 .products2{
     margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: auto;
     background-image: url(images/IMG-20250731-WA0031.jpg) ;
     /* display: flex; */
+    padding-bottom: 10px;
 }
 .features{
     display: flex;
@@ -165,13 +173,15 @@ body{
     background-image: url(images/section-mobiles-bg.png);
     margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: auto;
+    padding-bottom: 30px;
 }
 .shopbyprice{
     width: 100%;
-    height: 286.59px;
+    height: auto;
     background-color: #fce55e;
     margin: 0px;
+    padding: 30px;
     
 }
 .Shop{
@@ -180,12 +190,14 @@ body{
 }
 .shopbutton{
     width: 270.39px;
-    height: 41.5px;
+    height: auto;
     background-color: #f90390;
     border-radius: 7px;
     text-align: center;
     color: white;
     transition: white 0.4s ease-in;
+    padding: 10px;
+    margin: 20px;
 }
 .shopbutton:hover{
     background-color: white;
@@ -198,13 +210,15 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .brand1{
     width: 120px;
     height: 160px;
     background-color: black;
     border-radius: 5px;
-    margin-left: 30px;
+    margin: 5px;
+    /* padding: 40px; */
     
 }
 .brand2{
@@ -212,55 +226,66 @@ body{
     height: 160px;
     background-color: #006e2a;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand3{
     width: 120px;
     height: 160px;
     background-color: #64ff01;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand4{
     width: 120px;
     height: 160px;
     background-color: #0072bc;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand5{
     width: 120px;
     height: 160px;
     background-color: #ff6700;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand6{
     width: 120px;
     height: 160px;
     background-color: #ffc915;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand7{
     width: 120px;
     height: 160px;
     background-color: black;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand8{
     width: 120px;
     height: 160px;
     background-color: blue;
     border-radius: 5px;
+    margin: 5px;
 }
 .brand9{
     width: 120px;
     height: 160px;
     background-color: white;
     border-radius: 5px;
+    margin: 5px;
+    margin-right: 35px;
 }
 .samsung{
     padding: 45px 10px 30px 10px;
 }
 .brands{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 .footer{
     height: 270px;
