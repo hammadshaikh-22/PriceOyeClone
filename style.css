@@ -202,6 +202,7 @@ body{
 .shopbutton:hover{
     background-color: white;
     color: black;
+    transform: translateY(-5px);
 }
 .shoptext{
     padding: 12px;
