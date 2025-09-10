@@ -121,6 +121,10 @@ body{
     margin-left: 50px;
 
 }
+.bud1:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.2s;
+}
 .row1{
     display: flex;
     justify-content: space-around;
@@ -203,6 +207,7 @@ body{
     background-color: white;
     color: black;
     transform: translateY(-5px);
+    transition: ease-in-out 0.2s;
 }
 .shoptext{
     padding: 12px;
