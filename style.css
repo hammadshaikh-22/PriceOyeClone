@@ -52,6 +52,10 @@ body{
     border-radius: 3px;
     
 }
+.opt:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.2s;
+}
 .sect1{
     background-color: black;
     width: 70px;
@@ -121,7 +125,7 @@ body{
     margin-left: 50px;
 
 }
-.bud1:hover{
+.prod1:hover{
     transform: translateY(-5px);
     transition: ease-in-out 0.2s;
 }
